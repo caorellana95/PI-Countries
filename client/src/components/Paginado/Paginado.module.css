@@ -1,0 +1,42 @@
+.paginado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
+    width: 50%;
+    margin-right: 25%;
+    background-color: #886119;
+    border-color: aliceblue;
+    margin-left: auto;
+  }
+  
+  .list {
+    padding: 0 0 0 0;
+    width: 70vw;
+    height: 100%;
+    display: flex;    
+    justify-content:space-around;
+    justify-items: center;
+    align-items: center;
+    list-style: none;
+  }
+  
+  .number {
+    background-color: #7A7A7B;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    margin: 0 2px 0 2px;
+    cursor: pointer;
+    width: 2vw;
+    border-radius: 20px;
+    height: 5vh;
+    color:coral;
+    font-size: large;
+  }
+
+  .numberoPaginado:hover{
+    background-color:#2E2E2E;
+  }
+  
+ 

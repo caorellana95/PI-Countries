@@ -1,0 +1,62 @@
+.background{
+    background: url("../../images/mapamundi.jpg") no-repeat 50% 50%;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: scroll;
+
+}
+
+.titulo{
+    position: relative;
+    top: 20px;
+    color:saddlebrown
+
+    
+
+
+}
+
+.form{
+    background: url("../../images/map.png") no-repeat 100% 50%;
+    background-size:contain;
+    margin-top: 50px;
+    background-position: center;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.texts{
+    
+    color: saddlebrown;
+    padding: 5px;
+    border-radius: 10px;    
+    font-size: 21px;
+    font-family: Arial rgba(0, 0, 0, 0.329);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+
+.submit{
+    color: rgb(255, 145, 0);
+    text-decoration: none;
+    border: #0f0f0f solid 1px;
+    background-color: saddlebrown;
+    padding: 5px;
+    border-radius: 10px;    
+    font-size: 21px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 60px;
+}
+
+.countrieAndButton{
+  background-color: saddlebrown;
+  border: grey 3px solid;
+  width: 70px;
+  margin-left: 40%;
+
+}

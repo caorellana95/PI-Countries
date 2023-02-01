@@ -1,0 +1,31 @@
+.cardContainer {
+  background-color: #c99756;
+  width: 17vw;
+  height: 12rem;
+  margin: 1px 0 2px 0;
+  display: flex;
+  font-size: large;
+  color: rgb(17, 17, 17);
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+  padding-bottom: 16px;
+   
+   
+    
+  }
+  
+  .content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: flex-end;
+    height: 10%;
+  }
+  
+  
+  
+  .content {
+    margin: 1rem 0 0 0;
+  }

@@ -1,0 +1,30 @@
+.container{
+  display: flex;
+  align-content: center;
+  width: 30%;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+
+.inputSearch{
+  width: 250px;
+  height: 15px;
+  background-color: rgb(207, 135, 1);
+  border-radius: 20px;
+  border: 1px solid rgb(252, 166, 7);
+}
+
+.button{
+  background: url("../../images/lupa.png") no-repeat ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80% 80%;
+  border-radius: 10px;
+  width: 75px;
+  height: 25px;
+  display: inline-flex;
+  position:absolute;
+  border: 1px #5e400a;
+  margin-left: -10px;
+  cursor: pointer;
+}
