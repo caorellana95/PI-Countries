@@ -95,11 +95,7 @@ return(
             <option value="Oceania">Oceanía</option>
             </select>
         
-         <Paginado 
-            countriesPerPage={countriesPerPage}
-            allCountries={allCountries.length}
-            paginado={paginado}
-        />
+      
 
         <div className={layout.cards}>
         
@@ -118,6 +114,11 @@ return(
                 </div>
                 )
             })}
+        <Paginado 
+            countriesPerPage={countriesPerPage}
+            allCountries={allCountries.length}
+            paginado={paginado}
+        />
         </div>
     </div>
     

@@ -9,9 +9,9 @@
 .inputSearch{
   width: 250px;
   height: 15px;
-  background-color: rgb(207, 135, 1);
+  background-color: rgb(195, 195, 195);
   border-radius: 20px;
-  border: 1px solid rgb(252, 166, 7);
+  border: 1px solid rgb(49, 49, 49);
 }
 
 .button{

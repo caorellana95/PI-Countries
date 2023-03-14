@@ -7,7 +7,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #5e400a;
+    background-color: #535353;
     background-size:auto;
 }
 .busqueda{
@@ -17,8 +17,8 @@
 .h1{
     text-align:center;
     font-size: 17px;
-    color: #f79e29fa;
-    margin-right: 200px;
+    color: #e0e0e0fa;
+    margin-left: 10px;
 }
 
 .search {
@@ -29,18 +29,19 @@
 }
 
 .btn{
-    color: rgb(255, 145, 0);
+    color: rgb(96, 96, 96);
     text-decoration: none;
     border: #0f0f0f solid 1px;
     padding: 5px;
     border-radius: 10px;    
     font-size: 21px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
 
 }
 
 .to{
-    color: rgb(255, 145, 0);
+    color: #e0e0e0fa;
     text-decoration: none;
     border: #0f0f0f solid 1px;
     padding: 5px;

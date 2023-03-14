@@ -5,9 +5,10 @@
     height: 6vh;
     width: 50%;
     margin-right: 25%;
-    background-color: #886119;
+    background-color: #e0e0e0fa;
     border-color: aliceblue;
     margin-left: auto;
+    color: #f79e29fa;
   }
   
   .list {
@@ -19,6 +20,9 @@
     justify-items: center;
     align-items: center;
     list-style: none;
+    color: #202020fa;
+    cursor: pointer;
+
   }
   
   .number {
@@ -31,12 +35,17 @@
     width: 2vw;
     border-radius: 20px;
     height: 5vh;
-    color:coral;
+    color: #f79e29fa;
     font-size: large;
+    
+
   }
 
   .numberoPaginado:hover{
     background-color:#2E2E2E;
+    color: #f79e29fa;
+    
+
   }
   
  

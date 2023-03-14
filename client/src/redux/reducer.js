@@ -48,11 +48,11 @@ function rootReducer(state = initialState, action){
                 countries: continentFiltered
             }
         case FILTER_BY_ACTIVITY:
-            const filtredCountriesByActivities = state.allCountries
-            const continentFilteredBA = filtredCountriesByActivities.filter((c) => { return c.activities.find((c) => { return c.name === action.payload; }); });
+            const filtredCountriesByActivity = state.allCountries
+            const continentFilteredBA = filtredCountriesByActivity.filter((c) => { return c.activities.find((c) => { return c.name === action.payload; }); });
 
             if (action.payload === 'todos') {
-                return { ...state, countries: filtredCountriesByActivities }
+                return { ...state, countries: filtredCountriesByActivity }
             } else {
                 return {
                     ...state,

@@ -1,5 +1,5 @@
 .background{
-    background: url("../../images/mapamundi.jpg") no-repeat 50% 50%;
+    background: url("../../images/mapa.png") no-repeat 50% 50%;
     background-size: cover;
     height: 100vh;
     background-repeat: no-repeat;
@@ -12,7 +12,7 @@
 .titulo{
     position: relative;
     top: 20px;
-    color:saddlebrown
+    color:rgb(91, 91, 91)
 
     
 
@@ -31,18 +31,19 @@
 
 .texts{
     
-    color: saddlebrown;
+    color: rgb(32, 32, 32);
     padding: 5px;
     border-radius: 10px;    
     font-size: 21px;
     font-family: Arial rgba(0, 0, 0, 0.329);
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
 
 
 }
 
 .submit{
-    color: rgb(255, 145, 0);
+    color: rgb(181, 179, 176);
     text-decoration: none;
     border: #0f0f0f solid 1px;
     background-color: saddlebrown;
@@ -51,6 +52,7 @@
     font-size: 21px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-bottom: 60px;
+    cursor:pointer;
 }
 
 .countrieAndButton{

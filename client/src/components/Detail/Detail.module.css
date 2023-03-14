@@ -1,11 +1,11 @@
 .detailE {
   background-color: hsl(256, 87%, 12%);
-  background: url("../../images/mapamundi.jpg") no-repeat 50% 50%;
+  background: url("../../images/mapa.png") no-repeat 50% 50%;
   background-size: cover;
   min-height: 100%;
   width: 100%;
   padding-bottom: 5rem;
-  color: rgb(0, 0, 0);
+  color: rgb(16, 16, 16);
   display: flex;
   position: absolute;
   flex-direction: column;
@@ -51,14 +51,14 @@
 }
 
 .obj2Detail{
-    background-color: rgb(165, 101, 42);
+    background-color: #8c8989fa;
     border-width: 20px;
     border:solid rgb(27, 27, 27);
     width: 30%;
     justify-content:center;
     text-align: center;
     margin-left: 30rem;
-    color: #f79e29fa;
+    color: #e9e9e9fa;
 }
 
 .activitiesDetail{

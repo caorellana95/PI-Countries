@@ -14,7 +14,7 @@ export default function Paginado({countriesPerPage, allCountries, paginado}){
           <ul className={layout.list}>
             {pageNumbers.map(number => (
                 <li key={number}>
-                  <a className ={layout.numero} href="#" onClick={() => paginado(number)  }>{number}</a>
+                  <a className ={layout.numero} href onClick={() => paginado(number)  }>{number}</a>
                   </li>
               ))}
           </ul>

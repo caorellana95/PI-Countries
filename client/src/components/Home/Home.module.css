@@ -1,5 +1,5 @@
 .cardContainer{
-  background: url("../../images/mapamundi.jpg") no-repeat 50% 50%;
+  background: url("../../images/mapa.png") no-repeat 50% 50%;
   background-size: cover;
   height: 100vh;
   background-repeat: no-repeat;
@@ -9,7 +9,7 @@
 }
 
 .titulo{
-    color: rgb(255, 123, 0);
+    color: rgb(170, 168, 166);
     text-decoration: none;
     -webkit-text-stroke: 1px rgb(255, 255, 255);;
     padding: 5px;
@@ -17,7 +17,7 @@
 }
 
 .filtersAndSorting{
-  background-color: darkgoldenrod;
+  background-color: rgb(157, 157, 157);
   border-radius: 30px;
   width: 20%;
   text-emphasis-color: aliceblue;
